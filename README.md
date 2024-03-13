@@ -114,7 +114,7 @@ Run `python main_SensatUrban.py --mode test --gpu 0` for labeling your own data 
 
 ## BibTeX
 ```
-@article{Zhneg24CFNet,
+@article{Zheng24CFNet,
   title     = {ConFusion-Net: Semantic Segmentation for Scene Point Clouds via Learning Context Fusion Features},
   author    = {Zheng, Liu and Zhipeng, Jiang and Jianjun, Zhang and Ming, Zhang† and Renjie, Chen and Ying, He},
   booktitle = {arXiv},
