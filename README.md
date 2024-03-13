@@ -6,11 +6,12 @@ This is the official implementation of **ConFusion-Net**, more details will be p
 
 	
 ### (1) Setup
-This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN 7.4.1 on Ubuntu 16.04.
+This code has been tested with Python 3.6, Tensorflow-gpu 2.5.0, CUDA 11.6 and cuDNN 8.8.0 on Ubuntu 20.04.
  
 - Clone the repository 
 ```
-git clone --depth=1 https://github.com/xiluo-cug/TCFAP-Net && cd TCFAP-Net
+git clone --depth=1 https://github.com/Kukdo/ConFusion-Net && cd ConFusion-Net
+
 ```
 - Setup python environment
 ```
