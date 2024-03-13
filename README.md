@@ -2,6 +2,7 @@
 
 This is the official implementation of **ConFusion-Net**, more details will be provided after the article is accepted. 
 
+## Getting Started
 ### (0) Code structure
 We adapt the codebase of [RandLA-Net](https://github.com/QingyongHu/RandLA-Net), thanks for their siginificant contribution in semantic segmentation of point clouds.
 
@@ -110,3 +111,13 @@ If you want to visualize the GT semantics, uncomment the `GT = Plot(...)` and `s
 Copy your .ply to the `data/test` and preprocess again, then modify or add your `$YOURNAME.ply` into `main_SensatUrban.py`'s test_file_name list.
 
 Run `python main_SensatUrban.py --mode test --gpu 0` for labeling your own data using the model trained from SensatUrban dataset.
+
+## BibTeX
+```
+@article{Zhneg24CFNet,
+  title     = {ConFusion-Net: Semantic Segmentation for Scene Point Clouds via Learning Context Fusion Features},
+  author    = {Zheng, Liu and Zhipeng, Jiang and Jianjun, Zhang and Ming, Zhang† and Renjie, Chen and Ying, He},
+  booktitle = {arXiv},
+  year      = {2024}
+}
+```
